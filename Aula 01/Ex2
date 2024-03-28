@@ -1,0 +1,27 @@
+
+import java.util.Scanner;
+	
+public class Ex2 {
+	public static void main(String[] args) {
+
+	 		Scanner sc = new Scanner(System.in);
+	 		System.out.println("Digite um numero A: ");
+	 		int a = sc.nextInt();
+			System.out.println("Digite um numero B: ");
+	 		int b = sc.nextInt();
+	 		int c;
+	 		
+	 		c = a+b;
+	 		System.out.println("Soma de A e B = " + c);
+	 		c = a-b;
+	 		System.out.println("Diferença de A e B = " + c);
+	 		c = a*b;
+	 		System.out.println("Produto de A e B = " + c);
+	 		c = a/b;
+	 		System.out.println("Divisao de A e B = " + c);
+	 		c = a%b;
+	 		System.out.println("Resto de divisao de A e B = " + c);
+	 		c = (int) Math.pow(a, b);
+	 		System.out.println("Elevação de A por B = " + c);
+	 	}
+} 
